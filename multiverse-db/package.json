@@ -1,0 +1,36 @@
+{
+  "name": "multiverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT Platform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "setup": "DEBUG=multiverse:* node setup.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpqe/multiverse.git"
+  },
+  "keywords": [
+    "danielpqe",
+    "IoT",
+    "NodeJs"
+  ],
+  "author": "Daniel Quispe <danielpqe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielpqe/multiverse/issues"
+  },
+  "homepage": "https://github.com/danielpqe/multiverse#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "debug": "^3.1.0",
+    "inquirer": "^6.0.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  }
+}
